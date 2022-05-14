@@ -1,0 +1,56 @@
+.tweet-model-window{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    padding-top: 50px;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+    .container{
+        background-color: white;
+        padding: 10px 25px;
+        display: list-item;
+        list-style: none;
+        height: 320px;
+        border-radius: 20px;
+        .x-bt{
+            button{
+                    border: none;
+                    background-color: white;
+                    font-size: 20px;
+                    margin: 10px 0;
+            }
+            button:hover{
+                cursor: pointer;
+            }
+        }
+        .message-div{
+            display: flex;
+            gap: 10px;
+            .user-img{
+                img{
+                        width: 50px;
+                        border-radius: 50%;
+                }
+            }
+            .text-area{
+                    textarea{
+                        width: 400px;
+                        height: 200px;
+                        font-size: 20px;
+                        border: none;
+                        outline: none;
+                        resize: none;
+                    }
+            }
+        }
+        .tweet-bt-div{
+            p{
+                // width: 100px;
+            }   
+        }
+    }
+}

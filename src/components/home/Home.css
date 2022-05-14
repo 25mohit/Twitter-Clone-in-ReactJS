@@ -1,0 +1,30 @@
+.home-div-main-app .main-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 80px;
+}
+
+.home-div-main-app .main-div .rightpannel {
+  text-align: left;
+  width: 20%;
+  min-width: 220px;
+}
+
+.home-div-main-app .main-div .newsfeed {
+  text-align: left;
+  padding-right: 15px;
+  width: 50%;
+}
+
+.home-div-main-app .main-div .newsfeed .tweet-maps {
+  padding: 0px 10px;
+}
+
+.home-div-main-app .main-div .leftpannel {
+  width: 30%;
+}
+/*# sourceMappingURL=Home.css.map */

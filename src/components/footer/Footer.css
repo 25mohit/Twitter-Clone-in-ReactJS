@@ -1,0 +1,34 @@
+.footer-div {
+  display: list-item;
+  list-style: none;
+}
+
+.footer-div .footer-lists ul {
+  margin: 10px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.footer-div .footer-lists ul li {
+  color: #656565;
+  font-size: 13px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.footer-div .footer-lists ul li:hover {
+  text-decoration: underline;
+  color: #464646;
+}
+
+.footer-div .copyright-div p {
+  margin-bottom: 15px;
+  color: #505050;
+  font-size: 13px;
+}
+/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,33 @@
+.header-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 80px;
+    margin: 0;
+    .logo{
+        width: 20%;
+        text-align: left;
+        img{
+            height: 30px;
+        }
+    }
+    .home-heading{
+        width: 60%;
+        text-align: left;
+    }
+    .search-bar{
+        width: 20%;
+        text-align: left;
+        .search-text-header{
+            background-color: rgb(239,243,244);
+            border: none;
+            padding: 15px 20px;
+            padding-right: 80px;
+            border-radius: 25px;
+        }
+        .search-text-header:focus{
+            outline: 1px solid rgb(29,155,240);
+            background-color: white;
+        }
+    }
+}

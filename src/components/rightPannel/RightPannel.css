@@ -1,0 +1,147 @@
+.main-section {
+  text-align: left;
+}
+
+.main-section .backgroun-color-div {
+  padding: 2px 10px;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+}
+
+.main-section .backgroun-color-div .right-pannel-section {
+  text-align: left;
+  margin: 35px 0;
+}
+
+.main-section .backgroun-color-div .right-pannel-section .model-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-section .backgroun-color-div .right-pannel-section .model-card .info-div {
+  display: list-item;
+  padding-right: 10px;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-section .backgroun-color-div .right-pannel-section .model-card .info-div .heading {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-section .backgroun-color-div .right-pannel-section .model-card .info-div .heading .head-p {
+  font-weight: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.main-section .backgroun-color-div .right-pannel-section .model-card .info-div .heading img {
+  border-radius: 50%;
+  width: 20px;
+}
+
+.main-section .backgroun-color-div .right-pannel-section .model-card .info-div .heading .head {
+  color: gray;
+}
+
+.main-section .backgroun-color-div .right-pannel-section .model-card .info-div .subject .heading-p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.main-section .backgroun-color-div .right-pannel-section .model-card .image-div img {
+  border-radius: 20px;
+  width: 100px;
+}
+
+.main-section .backgroun-color-div span {
+  color: #36a2eb;
+  font-weight: 500;
+}
+
+.newdiv {
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+}
+
+.newdiv .who-to-follow {
+  display: list-item;
+  list-style: none;
+}
+
+.newdiv .who-to-follow .follow-heading h1 {
+  font-size: 25px;
+}
+
+.newdiv .who-to-follow .follow-suggestion-card {
+  margin-top: 25px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.newdiv .who-to-follow .follow-suggestion-card .user-logo {
+  padding-right: 15px;
+}
+
+.newdiv .who-to-follow .follow-suggestion-card .user-logo img {
+  border-radius: 50%;
+  width: 40px;
+}
+
+.newdiv .who-to-follow .follow-suggestion-card .user-name-and-follow-bt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.newdiv .who-to-follow .follow-suggestion-card .user-name-and-follow-bt .user-name {
+  display: list-item;
+  list-style: none;
+}
+
+.newdiv .who-to-follow .follow-suggestion-card .user-name-and-follow-bt .user-name .name {
+  color: black;
+  font-weight: bold;
+}
+
+.newdiv .who-to-follow .follow-suggestion-card .user-name-and-follow-bt .user-name .user {
+  color: gray;
+}
+
+.newdiv .who-to-follow .follow-suggestion-card .user-name-and-follow-bt .folow-bt .follow {
+  border-radius: 25px;
+  padding: 10px 15px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+}
+
+.newdiv .who-to-follow .follow-suggestion-card .user-name-and-follow-bt .folow-bt .follow:hover {
+  cursor: pointer;
+}
+
+.newdiv .show-more {
+  color: #36a2eb;
+  font-weight: bold;
+}
+
+.newdiv .show-more:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=RightPannel.css.map */

@@ -1,0 +1,176 @@
+.modelbackground-login {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modelbackground-login .modelcontainer-login {
+  padding: 40px 110px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.modelbackground-login .modelcontainer-login h1 {
+  font-size: 35px;
+  margin: 30px 0;
+}
+
+.modelbackground-login .modelcontainer-login .header {
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.modelbackground-login .modelcontainer-login .header img {
+  width: 80px;
+}
+
+.modelbackground-login .modelcontainer-login .header .cancel-bt {
+  border: none;
+  background-color: white;
+  padding: 10px 15px;
+  font-size: 20px;
+}
+
+.modelbackground-login .modelcontainer-login .header .cancel-bt:hover {
+  cursor: pointer;
+  background-color: #ededed;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  border-radius: 50%;
+}
+
+.modelbackground-login .modelcontainer-login .signin-apple {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #dcdbdb;
+  border-radius: 25px;
+  height: 45px;
+  width: 350px;
+}
+
+.modelbackground-login .modelcontainer-login .signin-apple img {
+  width: 20px;
+}
+
+.modelbackground-login .modelcontainer-login .signin-apple div p {
+  padding: 0;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.modelbackground-login .modelcontainer-login .signin-apple:hover {
+  background-color: #ededed;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.modelbackground-login .modelcontainer-login .or-p {
+  color: #ebebeb;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.modelbackground-login .modelcontainer-login .or-p span {
+  -webkit-user-select: all;
+     -moz-user-select: all;
+      -ms-user-select: all;
+          user-select: all;
+  color: black;
+}
+
+.modelbackground-login .modelcontainer-login .login-input-1 {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 20px 5px;
+  width: 340px;
+  font-size: 18px;
+}
+
+.modelbackground-login .modelcontainer-login .login-input-1:focus {
+  outline: 3px solid rgba(29, 155, 240, 0.6);
+}
+
+.modelbackground-login .modelcontainer-login .login-input-1::-webkit-input-placeholder {
+  padding-left: 10px;
+}
+
+.modelbackground-login .modelcontainer-login .login-input-1:-ms-input-placeholder {
+  padding-left: 10px;
+}
+
+.modelbackground-login .modelcontainer-login .login-input-1::-ms-input-placeholder {
+  padding-left: 10px;
+}
+
+.modelbackground-login .modelcontainer-login .login-input-1::placeholder {
+  padding-left: 10px;
+}
+
+.modelbackground-login .modelcontainer-login .next-bt {
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+  border: none;
+  font-size: 15px;
+  width: 350px;
+  border-radius: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.modelbackground-login .modelcontainer-login .next-bt:hover {
+  cursor: pointer;
+  background-color: #272727;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.modelbackground-login .modelcontainer-login .forget-bt {
+  border: 1px solid #dcdbdb;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 10px 0;
+  width: 350px;
+  margin-top: 15px;
+  background-color: white;
+}
+
+.modelbackground-login .modelcontainer-login .forget-bt:hover {
+  background-color: #e7e7e8;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.modelbackground-login .modelcontainer-login .wrong-user-error {
+  color: red;
+  font-weight: bold;
+}
+/*# sourceMappingURL=Login.css.map */

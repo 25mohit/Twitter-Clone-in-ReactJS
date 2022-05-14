@@ -1,0 +1,95 @@
+.tweet-card-div{
+    margin-top: 20px;
+    .tweet-card{
+        display: flex;
+        min-width: 300px;
+        .colum-first{
+            img{
+                width: 40px;
+                margin-right: 10px;
+                border-radius: 50%;
+            }
+        }
+        .colum-second{
+            display: list-item;
+            list-style: none;
+            width: 100%;
+            .second-colum-1{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                .tweet-head{
+                    width: 100%;
+                    display: flex;
+                    .name{
+                        font-size: 15px;
+                    }
+                    .user-name{
+                        color: gray;
+                        font-size: 15px;
+                        margin-left: 10px;
+                        font-weight: normal;
+                        
+                    }
+                }
+                .menu-icon{
+                    user-select: none;
+                    button{
+                        padding: 5px 8px;
+                        border: none;
+                        border-radius: 50%;
+                        background-color: white;
+                    }
+                    button:hover{
+                        cursor: pointer;
+                        background-color: rgb(232, 232, 232);
+                    }
+                }
+            }
+            .second-colum-2{
+               max-width: 600px;
+                word-wrap: break-word;
+                .post-text-p{
+                    margin: 5px 0;
+                    color: rgb(54, 54, 54);
+                    font-size:15px;
+                    // word-wrap: break-word;
+                    // overflow-wrap: break-word;
+
+                }
+            }
+            .second-colum-3{
+                user-select: none;
+                margin-top: 15px;    
+                width: 100%;
+                display: flex;
+                padding: 0 15px;
+                justify-content: space-between;
+                align-items: center;
+                img{
+                    padding: 10px;
+                        width: 18px;
+                    }
+                    span{
+                        align-items: center;
+                        display: flex;
+                        p{
+                            margin-left: 5px;
+                            margin-right:80px;
+                        }
+                    }
+                    img:hover{
+                        cursor: pointer;
+                        padding: 10px;
+                        background-color: rgb(236, 233, 233);
+                        border-radius: 50%;
+                        transition: 0.6s;
+                    }
+            }
+            hr{
+                margin-top: 15px;
+                border: 0.1px solid rgb(240, 240, 240);
+            }
+        }
+    }
+}

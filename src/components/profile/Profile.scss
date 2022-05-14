@@ -1,0 +1,18 @@
+.main-profile-div{
+    .main-div-1{
+        display:flex;
+        justify-content: space-between;
+        padding: 0px 80px;
+        .leftpannel{
+            text-align: left;
+            width: 20%;
+        }
+        .main-profile-section{
+            padding-right: 15px;    
+            width: 50%;
+        }
+        .right-profile-section{
+            width: 30%;
+        }
+    }
+}
