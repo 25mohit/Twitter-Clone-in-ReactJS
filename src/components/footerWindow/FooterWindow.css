@@ -1,0 +1,58 @@
+.footer-model-window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 12%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  pointer-events: none;
+}
+
+.footer-model-window .social-media-div {
+  background-color: rgba(250, 250, 250, 0.9);
+  padding: 15px;
+  pointer-events: all;
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 1px 10px gray;
+          box-shadow: 1px 1px 10px gray;
+  width: 200px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: list-item;
+}
+
+.footer-model-window .social-media-div .social-row {
+  margin: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-model-window .social-media-div .social-row img {
+  width: 30px;
+  margin: 0 10px;
+}
+
+.footer-model-window .social-media-div .social-row .profile-name a {
+  color: #3a3a3a;
+  text-decoration: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.footer-model-window .social-media-div .social-row .profile-name a:hover {
+  color: black;
+}
+/*# sourceMappingURL=FooterWindow.css.map */

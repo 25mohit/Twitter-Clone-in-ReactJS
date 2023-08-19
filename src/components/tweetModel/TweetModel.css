@@ -1,0 +1,57 @@
+.tweet-model-window {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 50px;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.tweet-model-window .container {
+  background-color: white;
+  padding: 10px 25px;
+  display: list-item;
+  list-style: none;
+  height: 320px;
+  border-radius: 20px;
+}
+
+.tweet-model-window .container .x-bt button {
+  border: none;
+  background-color: white;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.tweet-model-window .container .x-bt button:hover {
+  cursor: pointer;
+}
+
+.tweet-model-window .container .message-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.tweet-model-window .container .message-div .user-img img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.tweet-model-window .container .message-div .text-area textarea {
+  width: 400px;
+  height: 200px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  resize: none;
+}
+/*# sourceMappingURL=TweetModel.css.map */

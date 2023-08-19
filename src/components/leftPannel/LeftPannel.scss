@@ -1,0 +1,83 @@
+.main-left-pannel-div{
+    // background-color: red;
+    ul{
+        list-style: none;
+        padding: 0;
+        li{
+            user-select: none;
+            font-size: 25px;
+            padding: 10px;
+            padding-left: 15px;
+            margin-bottom: 5px;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            img{
+                width: 20px;
+                margin-right: 10px;
+            }
+        }
+        li:hover{
+            background-color: rgb(231,231,232);
+            border-radius: 25px;
+            cursor: pointer;
+        }
+    }
+    .tweet-bt{
+        border: none;
+        font-size: 18px;
+        color: white;
+        font-weight: bold;
+        border-radius: 25px;
+        padding: 15px 55px;
+        margin-left: 45px;
+        background-color: rgb(29,155,240);
+    }
+    .tweet-bt:hover{
+        cursor: pointer;
+        background-color: rgb(1, 128, 213);
+        transition: 0.6s;
+    }
+    .profile-logout-div{
+        padding: 10px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .profile-photo{
+            display: flex;
+            align-items: center;
+            img{
+                width: 40px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+            .username{
+                display: list-item;
+                list-style: none;
+                .profile-name{
+                    color: black;
+                    font-weight: bold;
+                    margin: 0;
+                }
+                .profile-username{
+                    color: gray;
+                    margin: 0;
+                }
+            }
+        }
+        .menu-icon-profile{
+            img{
+                width: 20px;
+            }
+        }
+    }
+    .profile-logout-div:hover{
+        padding: 10px;
+        transition: 0.4s;
+        border-radius: 30px;
+        background-color: rgb(231,231,232);
+        cursor: pointer;
+    }
+}

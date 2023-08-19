@@ -1,0 +1,46 @@
+.header-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 80px;
+  margin: 0;
+}
+
+.header-div .logo {
+  width: 20%;
+  text-align: left;
+}
+
+.header-div .logo img {
+  height: 30px;
+}
+
+.header-div .home-heading {
+  width: 60%;
+  text-align: left;
+}
+
+.header-div .search-bar {
+  width: 20%;
+  text-align: left;
+}
+
+.header-div .search-bar .search-text-header {
+  background-color: #eff3f4;
+  border: none;
+  padding: 15px 20px;
+  padding-right: 80px;
+  border-radius: 25px;
+}
+
+.header-div .search-bar .search-text-header:focus {
+  outline: 1px solid #1d9bf0;
+  background-color: white;
+}
+/*# sourceMappingURL=Header.css.map */

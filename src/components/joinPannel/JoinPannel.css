@@ -1,0 +1,164 @@
+.join-pannel-div {
+  padding: 30px 20px;
+  padding-left: 40px;
+  text-align: left;
+  display: list-item;
+  list-style: none;
+}
+
+.join-pannel-div img {
+  width: 50px;
+}
+
+.join-pannel-div .form {
+  display: list-item;
+  list-style: none;
+}
+
+.join-pannel-div .form .or-p {
+  color: #e8e8e8;
+  margin: 13px 0;
+}
+
+.join-pannel-div .form .or-p span {
+  color: black;
+}
+
+.join-pannel-div .form h1 {
+  font-size: 70px;
+  margin: 35px 0;
+}
+
+.join-pannel-div .form h2 {
+  font-size: 40px;
+  margin: 25px 0;
+}
+
+.join-pannel-div .form .login-with-google {
+  border: 1px solid #cbcbcb;
+  border-radius: 25px;
+  width: 280px;
+  padding: 5px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.join-pannel-div .form .login-with-google img {
+  border-radius: 50%;
+  width: 20px;
+}
+
+.join-pannel-div .form .login-with-google .inner-google-div {
+  display: list-item;
+  margin: 0px 15px;
+  margin-right: 60px;
+  list-style: none;
+}
+
+.join-pannel-div .form .login-with-google .inner-google-div .heading {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.join-pannel-div .form .login-with-google .inner-google-div .email {
+  color: gray;
+  font-size: 12px;
+  margin: 0;
+}
+
+.join-pannel-div .form .login-with-apple {
+  margin-top: 10px;
+  border: 1px solid #cbcbcb;
+  border-radius: 25px;
+  width: 280px;
+  padding: 10px 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.join-pannel-div .form .login-with-apple img {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.join-pannel-div .form .login-with-apple .inner-apple-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.join-pannel-div .form .login-with-apple .inner-apple-div .heading {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.join-pannel-div .form .login-with-apple:hover {
+  cursor: pointer;
+  background-color: #ededed;
+}
+
+.join-pannel-div .form .signup {
+  text-decoration: none;
+  padding: 10px 45px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: #1d9bf5;
+}
+
+.join-pannel-div .form .signup:hover {
+  background-color: #0093fc;
+  cursor: pointer;
+}
+
+.join-pannel-div .form .terms-p {
+  margin-top: 15px;
+  font-size: 10px;
+  color: #353535;
+}
+
+.join-pannel-div .form .terms-p span {
+  color: #1cbcf0;
+}
+
+.join-pannel-div .form .terms-p span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.join-pannel-div .form .h2-text {
+  margin-top: 50px;
+  font-size: 20px;
+  color: #454444;
+}
+
+.join-pannel-div .form .sign-bt {
+  text-decoration: none;
+  padding: 10px 125px;
+  border-radius: 25px;
+  background-color: white;
+  font-weight: bold;
+  color: #1d9bf5;
+  border: 1px solid #cae4f6;
+}
+
+.join-pannel-div .form .sign-bt:hover {
+  cursor: pointer;
+  background-color: #e8f5fd;
+}
+/*# sourceMappingURL=JoinPannel.css.map */

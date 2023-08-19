@@ -1,0 +1,28 @@
+.home-div-main-app{
+    .main-div{
+        display: flex;
+        // width: 100%;
+        justify-content: space-between;
+        padding: 0px 80px;
+        .rightpannel{
+            text-align: left;
+            width: 20%;
+            min-width: 220px;
+        }
+        .newsfeed{
+            text-align: left;
+            padding-right: 15px;
+            width: 50%;
+            .tweet-maps{
+                padding: 0px 10px;
+            }
+        }
+        .leftpannel{
+            width: 30%;
+        }
+    }
+    .footer{
+        margin-top: 20px;
+        padding: 25px 0;
+    }
+}

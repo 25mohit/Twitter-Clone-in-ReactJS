@@ -1,0 +1,60 @@
+.logout-card {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  pointer-events: stroke;
+  height: 100vh;
+  padding-top: 27%;
+  padding-left: 5%;
+}
+
+.logout-card .container {
+  padding: 20px 15px;
+  border-radius: 15px;
+  background-color: #fafafa;
+  -webkit-box-shadow: 1px 1px 10px 1px gray;
+          box-shadow: 1px 1px 10px 1px gray;
+  width: 300px;
+  display: list-item;
+  list-style: none;
+}
+
+.logout-card .container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logout-card .container .header .image img {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.logout-card .container .header .user-infos {
+  display: list-item;
+  list-style: none;
+}
+
+.logout-card .container .header .user-infos .fullname {
+  font-weight: bold;
+}
+
+.logout-card .container .header .user-infos .username {
+  color: gray;
+}
+
+.logout-card .container .existing-account .info {
+  font-size: 17px;
+  margin: 25px 0;
+}
+
+.logout-card .container .logout .info {
+  font-size: 17px;
+}
+
+.logout-card .container .logout .info:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=LogoutCard.css.map */

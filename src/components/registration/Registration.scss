@@ -1,0 +1,138 @@
+.modelbackground{
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .modelcontainer{
+        // padding: 15px 100px;
+        // padding-bottom: 80px;
+        background-color: white;
+        // display: list-item;
+        // list-style: none;
+        // justify-content: center;
+        // padding: 10px 120px;
+        padding: 40px 110px;
+        border-radius: 20px;
+        .registration-header{
+            font-size: 35px;
+            margin: 10px;
+        }
+        .header{
+            img{
+                width: 80px;
+            }
+            justify-content: space-between;
+            display: flex;
+            .cancel-bt{
+                border: none;
+                background-color: white;
+                padding: 10px 15px;
+                font-size: 20px;
+            }
+            .cancel-bt:hover{
+                cursor: pointer;
+                background-color: rgb(237, 237, 237);
+                transition: 0.6s;
+                border-radius: 50%;
+            }
+        }
+        .login-input{
+            border: 1px solid rgb(204, 204, 204);
+            border-radius: 5px;
+            padding: 18px 5px;
+            padding-left: 15px;
+            width: 430px;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .login-input:focus{
+            outline: 3px solid rgba(29,155,240,0.6);
+        }
+        .span-div{
+            // background-color: red;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            .show-password-span{
+                label{
+                    user-select: none;
+                }
+            }
+        }
+        .use-email-p{
+            text-align: right;
+            margin: 10px 0;
+            // margin-bottom: 15px;
+            p{
+                user-select: none;
+                margin: 0;
+                padding: 0;
+                color: rgb(52,157,229);
+            }
+            p:hover{
+
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+        .dob-form{
+            .date{
+                margin-bottom: 10px;
+                font-weight: 700;
+            }
+            .detail{
+                font-size: 14px;
+                color: rgb(86, 86, 86);
+                margin-bottom: 20px;
+            }
+            .dob-option{
+                select{
+                    border: 1px solid rgb(204, 204, 204);
+                    border-radius: 5px;
+                    padding: 18px 5px;
+                    option{
+                        font-size: 15px;
+                        color: rgb(52,157,229);
+                        font-weight: bold;
+                        padding: 30px;
+                        gap: 25px;
+                    }
+                }
+                select:first-child{
+                    width: 200px;
+                    margin-right: 10px;
+                }
+                select:nth-child(2){
+                    width: 90px;
+                    margin-right: 10px;
+                }
+                select:nth-child(3){
+                    width: 140px;
+                }
+            }
+        }
+        .confirm-registration{
+            padding: 20px 0;
+            border: none;
+            font-size: 15px;
+            width: 450px;
+            border-radius: 25px;
+            font-weight: bold;
+            color: white;
+            margin-top: 35px;
+            background-color: rgb(136,138,141);
+        }
+        .confirm-registration:hover{
+            cursor: pointer;
+        }
+        .success-message{
+            color: rgb(33, 162, 33);
+            font-weight: bold;
+        }
+    }
+}

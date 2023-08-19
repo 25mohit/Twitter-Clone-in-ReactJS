@@ -1,0 +1,87 @@
+.profile-main .user-detail-section {
+  display: list-item;
+  list-style: none;
+}
+
+.profile-main .user-detail-section .cover-photo img {
+  width: 100%;
+}
+
+.profile-main .user-detail-section .profile-infos {
+  display: list-item;
+  list-style: none;
+  text-align: left;
+}
+
+.profile-main .user-detail-section .profile-infos .header {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.profile-main .user-detail-section .profile-infos .header .profile-photo img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.profile-main .user-detail-section .profile-infos .header .edit-profile-bt button {
+  border: 1px solid #d7d6d6;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+  padding: 10px 15px;
+}
+
+.profile-main .user-detail-section .profile-infos .header .edit-profile-bt button:hover {
+  cursor: pointer;
+}
+
+.profile-main .user-detail-section .profile-infos .usernames {
+  display: list-item;
+}
+
+.profile-main .user-detail-section .profile-infos .usernames .name {
+  color: black;
+  font-size: 20px;
+}
+
+.profile-main .user-detail-section .profile-infos .usernames .username-p {
+  color: gray;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.profile-main .user-detail-section .profile-infos .status-p p {
+  margin: 5px 0;
+}
+
+.profile-main .user-detail-section .profile-infos .registration-info {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile-main .user-detail-section .profile-infos .registration-info div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-main .user-detail-section .profile-infos .registration-info div img {
+  height: 18px;
+  margin-right: 10px;
+}
+
+.profile-main .user-detail-section .profile-infos .registration-info div p {
+  color: gray;
+  margin-right: 30px;
+}
+/*# sourceMappingURL=ProfilePage.css.map */

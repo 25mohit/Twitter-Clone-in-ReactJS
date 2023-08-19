@@ -1,0 +1,104 @@
+.user-news-feed-div {
+  display: list-item;
+  list-style: none;
+}
+
+.user-news-feed-div .post-text-field-div {
+  border: 1px solid #efefef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user-news-feed-div .post-text-field-div .profile-photo-user-post {
+  margin: 5px 10px;
+}
+
+.user-news-feed-div .post-text-field-div .profile-photo-user-post img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.user-news-feed-div .post-text-field-div .text-field-div-user {
+  display: list-item;
+  list-style: none;
+}
+
+.user-news-feed-div .post-text-field-div .text-field-div-user textarea {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 10px;
+  font-size: 25px;
+  width: 550px;
+  height: 80px;
+  resize: none;
+  border: none;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+.user-news-feed-div .post-text-field-div .text-field-div-user textarea:focus {
+  outline: none;
+}
+
+.user-news-feed-div .post-text-field-div .text-field-div-user textarea::-webkit-input-placeholder {
+  padding-left: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.user-news-feed-div .post-text-field-div .text-field-div-user textarea:-ms-input-placeholder {
+  padding-left: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.user-news-feed-div .post-text-field-div .text-field-div-user textarea::-ms-input-placeholder {
+  padding-left: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.user-news-feed-div .post-text-field-div .text-field-div-user textarea::placeholder {
+  padding-left: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.user-news-feed-div .post-text-field-div .text-field-div-user hr {
+  border: 0.5px solid #f3f3f3;
+  margin-bottom: 20px;
+}
+
+.user-news-feed-div .post-text-field-div .text-field-div-user .status-post-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.user-news-feed-div .post-text-field-div .text-field-div-user .status-post-div .status-text-field-small-icons img {
+  width: 22px;
+  padding: 8px;
+}
+
+.user-news-feed-div .post-text-field-div .text-field-div-user .status-post-div .status-text-field-small-icons img:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #ededed;
+}
+
+.user-news-feed-div .post-text-field-div .text-field-div-user .status-post-div .tweet-bt button {
+  background-color: #8ecdf8;
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.user-news-feed-div .tweets-div-feed {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=TweetField.css.map */

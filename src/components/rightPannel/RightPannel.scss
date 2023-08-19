@@ -1,0 +1,123 @@
+.main-section{
+    text-align: left;
+    .backgroun-color-div{
+        padding: 2px 10px;
+        border-radius: 10px;
+        background-color: rgb(249, 249, 249);
+    .right-pannel-section{
+        text-align: left;
+    margin: 35px 0;
+    .model-card{
+        width: 100%;
+        min-width: 350px;
+        display: flex;
+        .info-div{
+            display: list-item;
+            padding-right: 10px;
+            list-style: none;
+            justify-content: space-between;
+            .heading{
+                align-items: center;
+                display: flex;
+                .head-p{
+                    font-weight: 20px;
+                    font-weight: bold;
+                    color: black;
+                }
+                img{
+                    // border-radius: 50%;
+                    width: 20px;
+                }
+                .head{
+                    color: gray;
+                }
+            }
+            .subject{
+                .heading-p{
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+            }
+        }
+        .image-div{
+                img{
+                    border-radius: 20px;
+                    width: 100px;
+                }
+        }
+    }
+}
+            span{
+                color: rgb(54,162,235);
+                font-weight: 500;
+            }
+            }}
+            .newdiv{
+                margin-top: 30px;
+                padding: 10px;
+                border-radius: 10px;
+                background-color: rgb(249, 249, 249);
+            .who-to-follow{
+                display: list-item;
+                list-style: none;
+                .follow-heading{    
+                    h1{
+                        font-size: 25px;
+                    }
+                }
+                .follow-suggestion-card{
+                    margin-top: 25px;
+                    width: 100%;
+                    display: flex;
+                    .user-logo{
+                        align-items: center;
+                        padding-right: 15px;
+                        img{
+                            border-radius: 50%;
+                            width: 40px;
+                        }
+                    }
+                    .user-name-and-follow-bt{
+                        display: flex;
+                        width: 100%;
+                        justify-content: space-between;
+                        .user-name{
+                            display: list-item;
+                            list-style: none;
+                            .name{
+                                color: black;
+                                font-weight: bold;
+                            }
+                            .user{
+                                color: gray;
+                            }
+                        }
+                        .folow-bt{
+                            .follow{
+                                border-radius: 25px;
+                                padding: 10px 15px;
+                                font-weight: bold;
+                                color: white;
+                                background-color: black;
+                            }
+                            .follow:hover{
+                                cursor: pointer;
+                                transition: 0.6s;
+                                background-color: rgb(62, 62, 62);
+                            }
+                        }
+                    }
+                }
+            }
+            .show-more{
+                color: rgb(54,162,235);
+                font-weight: bold;
+            }
+            .show-more:hover{
+                cursor: pointer;
+            }
+            .show-more-span{
+                color: rgb(54,162,235);
+                font-weight: 500;
+            }
+    }
